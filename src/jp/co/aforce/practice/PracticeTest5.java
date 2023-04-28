@@ -1,7 +1,7 @@
 package jp.co.aforce.practice;
 
 import java.util.ArrayList;
-
+import java.util.Calendar;
 public class PracticeTest5 {
 
 	public static void main(String[] args) {
@@ -19,7 +19,9 @@ public class PracticeTest5 {
 			System.out.println(inu +"はリストに含まれていません");
 		}
 		//練習問題3
-		int x = 11;
+		Calendar calendar = Calendar.getInstance();
+		
+		int x = calendar.get(Calendar.MONTH);
 		
 		switch(x) {
 		
